@@ -38,7 +38,33 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Urbanist-Thin.ttf",
+            "./assets/fonts/Urbanist-ThinItalic.ttf",
+            "./assets/fonts/Urbanist-ExtraLight.ttf",
+            "./assets/fonts/Urbanist-ExtraLightItalic.ttf",
+            "./assets/fonts/Urbanist-Light.ttf",
+            "./assets/fonts/Urbanist-LightItalic.ttf",
+            "./assets/fonts/Urbanist-Regular.ttf",
+            "./assets/fonts/Urbanist-Italic.ttf",
+            "./assets/fonts/Urbanist-Medium.ttf",
+            "./assets/fonts/Urbanist-MediumItalic.ttf",
+            "./assets/fonts/Urbanist-SemiBold.ttf",
+            "./assets/fonts/Urbanist-SemiBoldItalic.ttf",
+            "./assets/fonts/Urbanist-Bold.ttf",
+            "./assets/fonts/Urbanist-BoldItalic.ttf",
+            "./assets/fonts/Urbanist-ExtraBold.ttf",
+            "./assets/fonts/Urbanist-ExtraBoldItalic.ttf",
+            "./assets/fonts/Urbanist-Black.ttf",
+            "./assets/fonts/Urbanist-BlackItalic.ttf"
+          ]
+        }
+      ],
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true,

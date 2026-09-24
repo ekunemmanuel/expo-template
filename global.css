@@ -1,0 +1,49 @@
+@import 'tailwindcss';
+@import 'uniwind';
+
+@theme {
+  --font-sans: 'Urbanist-Regular';
+  --font-medium: 'Urbanist-Medium';
+  --font-semibold: 'Urbanist-SemiBold';
+  --font-bold: 'Urbanist-Bold';
+  /* --font-extrabold: 'Urbanist-ExtraBold';
+  --font-black: */
+}
+
+
+
+
+@layer theme {
+  :root {
+    @variant dark {
+      /* Dark Mode Palette */
+      --color-background: #000000;
+      /* Inverted text colors for dark mode */
+      --color-foreground: #FFFFFF;
+      --color-muted-foreground: #A0A0A0;
+      /* Lighter grey for visibility on black */
+
+      --color-primary: #C868FF;
+      --color-primary-foreground: #FFFFFF;
+
+      --color-card: #121212;
+      --color-border: #FFFFFF20;
+      /* White with low opacity */
+    }
+
+    @variant light {
+      /* Light Mode Palette (User Defined) */
+      --color-background: #FFFFFF;
+      --color-foreground: #202020;
+      /* Main Text */
+      --color-muted-foreground: #7A7A7A;
+      /* Secondary Text */
+
+      --color-primary: #C868FF;
+      --color-primary-foreground: #FFFFFF;
+
+      --color-card: #FFFFFF;
+      --color-border: #00000017;
+    }
+  }
+}
